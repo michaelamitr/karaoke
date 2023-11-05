@@ -6,7 +6,6 @@ export const Lyrics = ({ lines, currentLineIndex }) => {
 
   useEffect(() => {
     if (currentLineIndex >= 0) {
-      console.log('currentLineIndex', currentLineIndex);
       currentLineRef.current.scrollIntoView({
         block: 'start',
         inline: 'nearest',
